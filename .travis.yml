@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- node
+deploy:
+  provider: heroku
+  api_key:
+    secure: uWahjVRpJRz68Oa+HKE8JCL1Xd4Qqf2asCAfj4ug9SZwtlNtoSoENWEyKjowSvkxEsq+gHnU+xUG+e2yuVBCBsde5wQQZhJF2A8OTxC34UjxMgTgrMJD6ADGq0Nk3p7v4FU0y6klYQ/ku3niWt90k4af1HQ/fRP98b4KUPt1+ApTJJJZKz6FqPBEU5zpSusG+A9wqJzkVf3rJBzINPTRPjHdrAFIn+8AHqzeteX+x1Oay4IdN7f2WnkoIGbGYNjr91/UpdXgv6YqOVcduSMGCrk9woU9W7cXciFJE3shK6Gv411GYrnrn3V8d66CJAMa6yWsFq9SBL//VZxRFMFkHDEHmH6NczRaNez8WUVCKBt/cnxooXPk3t8nfr4QrvXQV3NiPRg13OwX6yP6PeZ5khfGNnndqlU9TtpG4c8kOKW6la+4oLMVB5XsU5qzmenjM2UF1kTh437NeYVbQzg4vSZtF41xkR755YENQIz/PkQpETNrkVIyLi0DscKYasypOw8di7pMitxUoTWIbaPOpCIT0K32PSAKPUP+MEeD8EKuRZ5DnVlHiaqprO8yf2K4MPp9KfzHFDMqk1xDJ+iYHzG/K9pS0T5yeRZCprENZrlsoBg/SeXaEpoUg/K3CIsIPLgQ/MGOIlnrs5CXl9yS+0ZSGy/MQjosAOJcfSGJ+kw=
+  app: still-taiga-83616
+  on:
+    repo: Minghanlin/expressserver
